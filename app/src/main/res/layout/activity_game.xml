@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/chalkboard"
+    tools:context=".GameActivity">
+
+    <ImageView
+        android:id="@+id/backImg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/gameboard" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:columnCount="3"
+        android:rowCount="3"
+>
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/x">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/o">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/x">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+
+        <GridLayout
+            android:gravity="center"
+            android:columnCount="3"
+            android:rowCount="3"
+            android:layout_columnSpan="1"
+            android:layout_rowSpan="1"
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/gameboard">
+
+            <ImageView
+                android:src="@drawable/empty"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </GridLayout>
+
+    </GridLayout>
+
+
+</RelativeLayout>
